@@ -1,8 +1,20 @@
-@article{example2,
-  title = {An example journal article},
-  author={Bighetti, Nelson and Ford, Robert},
-  journal = {Journal of Source Themes},
-  year    = 2015,
-  volume  = 1,
-  number  = 1
+@article{LEE2025110248,
+title = {Exploring the diagnostic potential of EEG theta power and interhemispheric correlation of temporal lobe activities in Alzheimer’s Disease through random forest analysis},
+journal = {Computers in Biology and Medicine},
+volume = {192},
+pages = {110248},
+year = {2025},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2025.110248},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482525005992},
+author = {Ahhyun Lucy Lee and Eunjin Hwang and Jeongeun Hwang},
+keywords = {Random forest classifier, Alzheimer’s disease classification, EEG, Theta band, Temporal lobe, Long range cross-correlation},
+abstract = {Background:
+Considering the prevalence of Alzheimer’s Disease (AD) among the aging population and the limited means of treatment, early detection emerges as a crucial focus area whereas electroencephalography (EEG) provides a promising diagnostic tool. To date, several studies indicated EEG dataset-based models sporting high diagnostic power in distinguishing patients with AD from healthy controls (HC). However, exploration into which features play a crucial role in the diagnosis remains limited.
+Methods:
+This study investigates the diagnostic capabilities of EEG for distinguishing patients with AD from HCs through random forest classification on EEG features. Band power and cross-correlation from the resting state EEG dataset of 22 HCs and 160 patients with AD were calculated using Welch’s periodogram and Pearson’s correlation, respectively. Welch’s t-test was applied to identify features demonstrating significant differences between patients with AD and HCs. Band power and cross-correlation were analyzed using a random forest classifier (RFC) and feature-importance analysis. The importance of feature categories, defined as subsets of features grouped by frequency bands (for band power features) or brain regions (for cross-correlation features), was quantified by calculating their average occurrence across all hyperparameter configurations.
+Result:
+Distinct patterns between the eyes-closed and eyes-open conditions in alpha power were not observed for patients with AD (vs. HC), whereas theta power (4–8 Hz) in all regions was higher in patients with AD (vs. HC)(p<0.05). Interhemispheric cross-correlation in the temporal lobes exhibited the most distinguishable distribution for the cross-correlation dataset. An RFC, exploring 512 models with varied hyperparameters followed by feature-importance analysis based on the mean decrease in impurity, highlighted “theta relative power” and “interhemispheric cross-correlation of channel pairs including temporal channels” as the most important features for distinguishing patients with AD from HCs. RFC on theta-band filtered cross-correlation dataset informed by important features demonstrated the robustness of important features across models with different hyperparameter settings.
+Discussion:
+The models achieved over 97% accuracy and 100% recall in test sets, although the interpretation of this extraordinarily high accuracy warrants caution due to the small dataset size with high data imbalance and the absence of external validation. This methodology demonstrates the efficacy of EEG-based metrics and machine learning in improving our understanding of EEG characteristics in patients with AD, emphasizing the potential of integrating machine learning techniques into clinical practices.}
 }
